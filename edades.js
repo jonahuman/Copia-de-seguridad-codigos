@@ -1,0 +1,18 @@
+    function saltarLinea() {
+        
+        document.write("<br>");
+        
+    
+    }
+
+
+        function imprimir(frase) {
+            
+            document.write(frase);
+        
+        }
+
+    var miEdad = 20
+    var edadHermano = 22
+
+    imprimir("Nuestra diferencia de edad es " + (edadHermano - miEdad)); 

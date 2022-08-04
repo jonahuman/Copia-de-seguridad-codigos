@@ -1,0 +1,34 @@
+<meta charset="UTF-8" />
+
+<h1>PROGRAMA CÁLCULO IMC</h1>
+
+<script>
+    
+    function saltarlinea()  {
+
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+
+    }
+    
+    function imprimir(frase) {
+
+        document.write(frase);
+        saltarlinea();
+
+    }
+    function calcularImc(peso,altura){
+
+        imc = peso / (altura * altura);
+
+        return 10
+
+    }
+
+    var imcFler = 10 //calcularImc(68,1.71)
+    var imcChristian = 10 //calcularImc(80,1.74)
+
+    imprimir("El promedio del imc calculado de Fler y Christian es " + (imcFler+imcChristian)/2);
+
+</script>   
